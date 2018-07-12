@@ -10,3 +10,11 @@ The code is sensitive to lighting conditions a for loop is used which iterates o
 You may get rid of the for loop and use particular range. In order to do that. change the line cv2.threshold(img_bw,num,255,cv2.THRESH_BINARY)
 to cv2.threshold(img_bw,a,b,cv2.THRESH_BINARY) where a<b and a,b lies between 0 and 255. as pytesseract is succeptible to noise so use better 
 blurring algorithm (gaussian blur is used  in this case)
+
+## Results
+
+<img src="https://raw.githubusercontent.com/iamfiasco/sih2018/master/Screenshot%20at%202018-03-31%2017-34-45.png">
+
+<hr>
+
+<img src="https://raw.githubusercontent.com/iamfiasco/sih2018/master/Screenshot%20at%202018-03-31%2017-35-05.png">
